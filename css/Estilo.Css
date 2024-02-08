@@ -1,1 +1,181 @@
-fhcfxfx
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #ddb811;
+}
+
+p {
+    color: #fff; 
+    font-family: Roboto;
+}
+
+h3, h2 {
+    color: #f2bc1b;
+    font-family: Courier Prime; 
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+    color: #353caf;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060461;
+}
+
+
+
+nav {
+    border: 1px solid #060461;
+    width: 100%;
+    text-align: center;
+    background-color: #060461;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 2em ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    padding: 20px 10px;
+}
+
+li :hover {
+    background-color: #060461;
+}
+
+
+nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+  }
+  
+  nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  
+  nav li:hover ul {
+    display: block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #353caf;
+    width: 85%;
+  }
+  nav ul li a:hover {
+    border-top: 1px solid #f2bc1b;
+    border-bottom: 1px solid #f2bc1b;
+  }
+  nav ul li:hover > a {
+    background-color: #060461;
+        padding: none;
+        width: 80%;
+        margin: 0;
+  }
+  
+  nav ul ul li {
+    float: none;
+    position: relative;
+  }
+
+  
+  nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+  }
+
+  
+  nav ul ul li  {
+    background-color: #060461;
+    margin: 0;
+    width: 100%;
+  }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    width: 20em;
+    margin: 20px 0px;
+    background-color: #060461;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 25px #060461;
+}
+
+section h2 {
+    margin: 15px 0px 7px 0px;
+    text-align: center;
+}
+
+section h3 {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+section img {
+    width: 240px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+section p {
+    display: flex;
+    align-content: space-around;
+    font-size: 1.1em;
+}
+
+section b {
+    margin-bottom: 4px;
+}
+
+section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
